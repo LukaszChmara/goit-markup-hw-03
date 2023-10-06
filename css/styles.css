@@ -1,0 +1,211 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text);
+    background-color: var(--background-color);
+}
+
+:root {
+    --primary-brand: #4D5AE5;
+    --background-color: #FFFFFF;
+    --dark: #2e2f42;
+    --default-buttons-text: #4d5ae5;
+    --default-buttons-background: #f4f4fd;
+    --pressed-state: #404bbf;
+    --text: #434455;
+    --success: #31D0AA;
+    --subtle-text: #8E8F99;
+    --accent: #E7E9FC;
+    --light: #F4F4FD; 
+    --modal-overlay: #2E2F42;
+    --hero-background: #2E2F42;
+    --white-background: #FFFFFF;
+    --modal-background: #FCFCFC;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--default-buttons-text);
+}
+
+.first-header {
+    background-color: var(--dark);
+}
+
+.first-header-main {
+    font-size: 56px;
+    text-align: center;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--background-color);
+}
+
+.main-button {
+    background-color: var(--default-buttons-text);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--background-color);
+}
+
+.main-button:hover {
+    background-color: var(--pressed-state);
+}
+
+.main-button:focus {
+    background-color: var(--pressed-state);
+}
+
+.main-button:focus {
+    cursor: pointer;
+}
+
+.list-point {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+
+.main-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
+}
+
+.what-are-we {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark);
+}
+
+.section-four {
+    background-color: var(--light);
+}
+
+.our-team {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark);
+}
+
+.team-view {
+    background-color: var(--background-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header_adr-1 {
+    font-style: normal;
+}
+
+.spn-1 {
+    color: var(--dark);
+}
+
+.spn-2 {
+    color: var(--default-buttons-background);
+}
+
+.list {
+    list-style: none;
+}
+
+.main-studio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+
+.main-studio:hover {
+     color: var(--pressed-state);
+}
+
+.main-studio:focus {
+color: var(--pressed-state);
+}
+
+.mail-to {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
+}
+
+.mail-to:hover { 
+     color: var(--pressed-state);
+}
+
+.mail-to:focus {
+     color: var(--pressed-state);
+}
+
+.section-one {
+    background-color: var(--dark);
+}
+.filter-button {
+    font-family:'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--default-buttons-text);
+    background-color: var(--light);
+}
+
+.filter-button:hover {
+    background-color: var(--pressed-state);
+    color: var(--background-color);
+}
+
+.filter-button:focus {
+   background-color: var(--pressed-state);
+   color: var(--background-color);
+}
+
+.filter-button:focus {
+        cursor: pointer;
+    }
+
+.portfolio-images-dsc {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+
+.portfolio-images-additional-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
+
+}
+.footer {
+    background-color: var(--dark);
+}
+
+.footer-paragraph {
+    line-height: 1.5;
+    color: var(--light);
+    letter-spacing: 0.02em;
+}
