@@ -30,10 +30,12 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--default-buttons-text);
+    margin-right: 76px;
 }
 
-.first-header {
+.section-one {
     background-color: var(--dark);
+    padding: 188px 0;
 }
 
 .first-header-main {
@@ -42,6 +44,7 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--background-color);
+    max-width: 496px;
 }
 
 .main-button {
@@ -52,6 +55,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--background-color);
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .main-button:hover {
@@ -72,6 +81,9 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark);
+    margin-bottom: 8px;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .main-paragraph {
@@ -79,6 +91,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text);
+    text-align: center;
 }
 
 .what-are-we {
@@ -88,6 +101,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark);
+    margin-bottom: 72px;
 }
 
 .section-four {
@@ -101,18 +115,26 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark);
+    margin-bottom: 72px;
 }
 
 .team-view {
     background-color: var(--background-color);
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .link {
     text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
 }
+
 
 .header_adr-1 {
     font-style: normal;
+    display: flex;
+    gap: 40px;
 }
 
 .spn-1 {
@@ -125,14 +147,24 @@ body {
 
 .list {
     list-style: none;
+    display: flex;
+    gap: 24px;
 }
 
+.list-portfolio {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
 .main-studio {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--dark);
+    padding: 24px 0;
 }
 
 .main-studio:hover {
@@ -158,8 +190,9 @@ color: var(--pressed-state);
      color: var(--pressed-state);
 }
 
-.section-one {
+.section-two {
     background-color: var(--dark);
+    padding: 120px;
 }
 .filter-button {
     font-family:'Roboto',sans-serif;
@@ -169,16 +202,21 @@ color: var(--pressed-state);
     letter-spacing: 0.04em;
     color: var(--default-buttons-text);
     background-color: var(--light);
+    padding: 12px 24px
+    border: 1px solid var(var(--accent));
+    border-radius: 4px;
 }
 
 .filter-button:hover {
     background-color: var(--pressed-state);
     color: var(--background-color);
+    border: 1px solid transparent
 }
 
 .filter-button:focus {
    background-color: var(--pressed-state);
    color: var(--background-color);
+   border: 1px solid transparent
 }
 
 .filter-button:focus {
@@ -191,6 +229,7 @@ color: var(--pressed-state);
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark);
+  margin-bottom: 8px;
 }
 
 .portfolio-images-additional-text {
@@ -202,10 +241,91 @@ color: var(--pressed-state);
 }
 .footer {
     background-color: var(--dark);
+    padding: 100px;
 }
 
 .footer-paragraph {
     line-height: 1.5;
     color: var(--light);
     letter-spacing: 0.02em;
+    max-width: 264px;
+}
+
+img {
+    display: block;
+}
+
+.main-header {
+    border-bottom: 1px solid var(--accent);
+}
+
+.navigation {
+    display: flex;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15 px;
+}
+
+.navigation-main {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.visually-hidden {
+    visibility: hidden;
+    display: none;
+}
+
+.section-two-list {
+    width: calc((100% - 72px) / 4);
+}
+
+.section-three {
+    padding-bottom: 120px;
+}
+
+.products-third-section {
+    width: calc((100% - 48px) / 3);
+}
+
+.section-four {
+    padding: 120px;
+}
+
+.employee-container {
+    padding: 32px 0px;
+}
+
+.portfolio-header {
+    border-bottom: 1px solid var(--accent);
+}
+
+.main-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.list-portfolio-two {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.list-portfolio-two-details {
+    width: calc((100% - 48px) / 3);
+}
+
+.app-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
