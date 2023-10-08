@@ -42,6 +42,7 @@ body {
 .section-one {
     background-color: var(--dark);
     padding: 188px 0;
+    justify-content: space-between;
 }
 
 .first-header-main {
@@ -71,6 +72,7 @@ body {
     cursor: pointer;
     justify-content: center;
     margin: 0 auto;
+    margin-top: 60px;
     word-wrap: break-word;
     padding: 16px 32px;
 }
